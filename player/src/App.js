@@ -1,8 +1,9 @@
 import {Component, createRef} from 'react';
 import './App.css';
-import senatra_jingle from "./music/Frank Sinatra - Jingle Bells.mp3";
-import senatra_snow from "./music/Frank Sinatra - Let It Snow.mp3";
-import senatra_stran from "./music/Frank Sinatra - Strangers In The Night.mp3";
+
+let senatra_jingle = 'music/Frank Sinatra - Jingle Bells.mp3';
+let senatra_snow = "music/Frank Sinatra - Let It Snow.mp3";
+let senatra_stran = "music/Frank Sinatra - Strangers In The Night.mp3";
 
 class App extends Component {
   state = {songs: [senatra_jingle, senatra_snow, senatra_stran],

@@ -4,9 +4,9 @@
 .song{
     cursor: pointer;
 }
-/* audio{
+audio{
     display: none;
-} */
+}
 button {
     border-radius: 20px;
     border: none;
@@ -48,14 +48,14 @@ button:active{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: url(./icons.jpg) 25.5% 3.5% no-repeat;
+    background: url(./images/icons.jpg) 25.5% 3.5% no-repeat;
     background-size: 350px;
 }
 .pause{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: url(./icons.jpg) 50% 2% no-repeat;
+    background: url(./images/icons.jpg) 50% 2% no-repeat;
     background-size: 250px;
 }
 .volume{
@@ -65,12 +65,12 @@ button:active{
 .prev{
     width: 30px;
     height: 30px;
-    background: url(./icons.jpg) 50% 25% no-repeat; 
+    background: url(./images/icons.jpg) 50% 25% no-repeat; 
     background-size: 180px;
 }
 .next{
     width: 30px;
     height: 30px;
-    background: url(./icons.jpg) 74% 25% no-repeat;
+    background: url(./images/icons.jpg) 74% 25% no-repeat;
     background-size: 180px; 
 }
